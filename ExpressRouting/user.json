@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Harsh",
+      "email": "tyagi@gmail.com",
+      "password": "5566"
+    },
+    {
+      "id": 3,
+      "name": "Bhavya",
+      "email": "b@gmail.com",
+      "password": "558888"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "task": "Learn java",
+      "status": false
+    },
+    {
+      "id": 2,
+      "task": "Learn JS",
+      "status": true
+    },
+    {
+      "id": 3,
+      "task": "Learn reactJS",
+      "status": true
+    }
+  ]
+}
