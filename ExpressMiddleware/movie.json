@@ -1,0 +1,27 @@
+{
+  "movies": [
+    {
+      "Id": 1,
+      "Name": "Dhoni - The untold story",
+      "Description": "Biopic of Dhoni ",
+      "Rating": 5,
+      "Genre": "Dharma Production",
+      "Cast": [
+        "Sushant Rajput",
+        "Disha Patani",
+        "Kiara Advani"
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Dhoom 3",
+      "Description": "Story of thief ",
+      "Rating": 7.8,
+      "Genre": "Pen Movies",
+      "Cast": [
+        "Amir Khan",
+        "Katrina Kaif"
+      ]
+    }
+  ]
+}
