@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Shaurya",
+      "email": "dhaka@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Nipun Shaharavat",
+      "email": "nipun@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Harsh",
+      "email": "h@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Dev Sehrawat",
+      "email": "deva@gmail.com"
+    }
+  ]
+}
