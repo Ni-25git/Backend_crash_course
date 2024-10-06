@@ -57,7 +57,7 @@ user.get('/users' , authMiddleware, checkAccessRole('Admin'), async(req,res)=>{
     }
 });
 
-user.get('/users/:id' , async(req,res)=>{
+user.get('/users/:id' , authMiddleware , checkAccessRole(['Admin' , 'Member']), async(req,res)=>{
     try {
         const {id} = req.params
         const user = await UserModel.findById(id);
@@ -70,7 +70,7 @@ user.get('/users/:id' , async(req,res)=>{
     }
 });
 
-user.put("/users/:id" , async (req,res)=>{
+user.put("/users/:id" , authMiddleware, checkAccessRole(['Admin' , 'Member']), async (req,res)=>{
     try {
         const {id} = req.params
         const {name , email , password , borrowedBooks} = req.body;
